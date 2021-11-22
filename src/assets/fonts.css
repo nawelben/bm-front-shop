@@ -1,0 +1,66 @@
+@font-face {
+  font-family: "Playfair Display";
+  src: url("./fonts/Playfair_Display/PlayfairDisplay-Regular.ttf") format("ttf"),
+    url("./fonts/Playfair_Display/PlayfairDisplay-Italic.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("./fonts/Montserrat/Montserrat-Regular.ttf") format("ttf");
+}
+
+.title1 {
+  font-family: Playfair Display;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 22px;
+  line-height: 29, 33px;
+}
+.title1b {
+  font-family: Playfair Display;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 23, 99px;
+}
+
+.title2 {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+}
+
+.title2b {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 19, 5px;
+}
+
+.title2c {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 17, 07px;
+}
+
+.text {
+  font-family: Playfair Display;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 18, 66px;
+}
+
+.text-italic {
+  font-family: Playfair Display;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 16px;
+  line-height: 21px;
+}
