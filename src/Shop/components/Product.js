@@ -51,9 +51,14 @@ function Product() {
               <div className="h2 text-center text-main-color title1b">
                 Où habitez-vous?
               </div>
-              <label className="h4 text-main-color">VILLE*</label>
-              <select className="form-select bg-black text-white">
-                <option defaultValue>Choisissez votre ville</option>
+              <label className="h4 text-main-color text">VILLE*</label>
+              <select className="form-select bg-black text-white text">
+                <option
+                  className="form-select bg-black text-white text-italic"
+                  defaultValue
+                >
+                  Choisissez votre ville
+                </option>
                 <option value="1">01 - Adrar</option>
                 <option value="2">02 - Chlef</option>
                 <option value="3">03 - Laghouat</option>
@@ -116,11 +121,11 @@ function Product() {
             </div>
 
             <div className="d-flex mt-3 align-items-center">
-              <div className="text-main-color pe-3">
+              <div className="text-main-color pe-3 title1b">
                 Total :<br /> 2000 DA
               </div>
               <div className="flex-grow-1 ps-3">
-                <button className="btn border text-dark bg-btn-light w-100">
+                <button className="btn border text-dark bg-btn-light w-100 title1b">
                   Commander
                 </button>
               </div>

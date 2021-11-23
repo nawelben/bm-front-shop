@@ -6,7 +6,7 @@ import suiviCommande from "../../assets/suivi-commande.svg";
 function Navbar() {
   return (
     <>
-      <nav className="container-fluid">
+      <nav className="container-fluid pt-3">
         <div className="row">
           <div className="col-4 px-0 d-flex align-items-center">
             <img
@@ -15,8 +15,8 @@ function Navbar() {
               alt="language"
             />
           </div>
-          <div className="col-4 px-0 d-flex align-items-center">
-            <img className="img img-fluid" src={logo} alt="logo" />
+          <div className="col-4 px-0 d-flex align-items-center justify-content-center">
+            <img className="img logo-navbar" src={logo} alt="logo" />
           </div>
           <div className="col-4 px-0 d-flex justify-content-end align-items-center">
             <img

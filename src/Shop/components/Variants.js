@@ -16,7 +16,7 @@ function Variants() {
               <span className="me-4 span-rounded border rounded-circle text-main-color">
                 -
               </span>
-              <span className="text-main-color">0</span>
+              <span className="text-main-color text">0</span>
               <span className="ms-4 span-rounded border rounded-circle text-main-color">
                 +
               </span>
@@ -29,7 +29,7 @@ function Variants() {
               <span className="me-4 span-rounded border rounded-circle text-main-color">
                 -
               </span>
-              <span className="text-main-color">0</span>
+              <span className="text-main-color text">0</span>
               <span className="ms-4 span-rounded border rounded-circle text-main-color">
                 +
               </span>

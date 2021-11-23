@@ -116,3 +116,15 @@ input.text-main-color::placeholder {
   width: 25px;
   background: url("./last-state.svg");
 }
+
+.logo-navbar {
+  width: auto;
+  max-height: 65px;
+}
+
+@media screen and (max-width: 768px) {
+  .logo-navbar {
+    width: auto;
+    max-height: 50px;
+  }
+}
